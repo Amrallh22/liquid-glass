@@ -1,0 +1,204 @@
+.bo:hover{
+    color: lightskyblue;
+}
+.about:hover{
+   content: url(iconheader/icons8-about-48.png);
+    transform: scale(1.2);
+    
+}
+.contact:hover{
+   content: url(iconheader/icons8-contacts-48.png);
+    transform: scale(1.2);
+    
+}.discord:hover{
+   content: url(iconheader/icons8-discord-48\ \(1\).png);
+    transform: scale(1.2);
+    
+}.facebook:hover{
+   content: url(iconheader/icons8-facebook-48\ \(1\).png);
+    transform: scale(1.2);
+    
+}.wa:hover{
+   content: url(iconheader/icons8-whatsapp-48\ \(1\).png);
+    transform: scale(1.2);
+    
+}
+.botton:hover{
+    color: #ffffff;
+background-color:#94CFFF87;
+    transform: scale(1.1);
+
+    border-color: #5cb6ff87
+}
+body{
+background-color:rgb(0, 0, 0);
+font-family: Arial, Helvetica, sans-serif;
+}
+header{
+
+     background-color: rgba(255, 255, 255, 0.13);
+     width: 500px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50px;
+    border-style: ridge;
+    border-color: rgba(202, 202, 202, 0.342);
+
+}
+header a{
+padding: 0 20px;
+transition: all 0.4s;
+}
+
+.ball{
+   position: fixed;
+    width: 800px;
+    height: 800px;
+    background-color: #004bd6;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    z-index: -1;
+    margin: 330px 680px 500px 750px;
+}
+.ball2{
+   position: fixed;
+    width: 750px;
+    height: 750px;
+    background-color: #7700ff;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    z-index: -1;
+    margin: -380px 0px -450px -300px;
+}
+.img{
+    width: 320px;
+height: 320px;
+background-repeat: no-repeat;
+background-size: cover;
+border-width: 1px ;
+border-style: solid;
+border-color: rgba(173, 0, 207, 0.623);
+border-radius: 50%;
+background-image: url(Img/me.jpg);
+margin-top: 100px;
+margin-left: 800px;
+
+}
+main{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.13);
+    border-color: rgba(202, 202, 202, 0.342);
+    border-style: solid;
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: -300px;
+}
+main h3{
+    color: white;
+ text-transform: capitalize;
+    font-weight: 600;
+    font-size: 30px;
+    text-align:left ;
+    margin-left:25px;
+}
+main h2{
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 35px;
+    text-align:left ;
+    margin-left:25px;
+}
+main p{
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align:left ;
+    margin-left:25px;
+}
+.skills{
+background-color: rgba(255, 255, 255, 0.13);
+border-color: rgba(202, 202, 202, 0.342);
+border-style: solid;
+background-size: cover;
+text-align: center;
+
+padding: 150px 70px 175px 70px;
+border-radius: 10px;
+margin: 200px 5px;
+}
+.skills h2{
+    text-align: center;
+letter-spacing: 1px;
+font-size: 30px;
+margin-top: -30px;
+text-transform: uppercase;
+padding-bottom: 50px;
+color: rgb(255, 255, 255);
+}
+.skills p{
+display: inline;
+margin: 150px 50px 100px 50px;
+font-weight: 500;
+font-size: 18px;
+background-size: 15px 15px;
+background-color: rgba(121, 130, 255, 0.205);
+    border-color: rgba(114, 112, 255, 0.377);
+padding: 15px 15px 15px 15px;
+border-radius: 5px;
+color: white;
+text-align: center;
+text-transform: capitalize;
+text-shadow: 1px 1px 2px black;
+transition: all 0.5s;
+}
+
+.form{
+background-color: rgba(255, 255, 255, 0.13);
+border-color: rgba(202, 202, 202, 0.342);
+border-style: solid;
+    padding: 100px 20px 150px 20px ;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    margin: 100px 5px 10px 5px;
+}
+
+.form h2{
+font-size: 30px;
+text-transform: uppercase;
+}
+
+label{
+display: block;
+text-transform: capitalize;
+font-weight: bold;
+margin-bottom: 5px;
+margin-left: -250px;
+}
+
+input{
+font-size:25px;
+border-radius: 5px ;
+text-decoration: none;
+
+
+}
+
+
+.botton{
+color: rgb(129, 129, 129);
+background-color: rgba(255, 255, 255, 0.13);
+    border-color: rgba(202, 202, 202, 0.342);
+font-size: large;
+text-transform: capitalize;
+padding: 10px 10px;
+text-align: center;
+font-weight: 600;
+margin-top: 50px;
+transition: all 0.5s;
+}
