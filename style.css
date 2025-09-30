@@ -1,6 +1,11 @@
 .bo:hover{
     color: lightskyblue;
 }
+input:focus {
+  border-color: #4FC3F7; 
+  box-shadow: 0 0 15px rgba(79, 195, 247, 0.4);
+  outline: none;
+}
 .about:hover{
    content: url(iconheader/icons8-about-48.png);
     transform: scale(1.2);
@@ -208,11 +213,6 @@ margin-left: -250px;
   transition: all 0.3s ease;
 }
 
-input:focus {
-  border-color: #4FC3F7; 
-  box-shadow: 0 0 15px rgba(79, 195, 247, 0.4);
-  outline: none;
-}
 
 
 .botton{
