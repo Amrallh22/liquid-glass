@@ -1,6 +1,8 @@
 .bo:hover{
-    color: lightskyblue;
+    color: rgb(110, 255, 255);
+transition: all 0.7s;
 }
+
 input:focus {
   border-color: #4FC3F7; 
   box-shadow: 0 0 15px rgba(79, 195, 247, 0.4);
@@ -34,6 +36,22 @@ background-color:#94CFFF87;
     transform: scale(1.1);
 
     border-color: #5cb6ff87
+}
+.js:hover{
+   transform: scale(1.2); 
+   transition: all 0.5s;
+}
+    .vue:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+    }
+.react:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+    }
+.clang:hover{
+color: rgb(110, 255, 255);
+transition: all 0.7s;
 }
 body{
 background-color:rgb(0, 0, 0);
@@ -186,7 +204,7 @@ border-style: solid;
     text-align: center;
     color: white;
     border-radius: 30px;
-    margin: 100px 5px 10px 5px;
+    margin: 100px 5px 100px 5px;
 }
 
 .form h2{
@@ -227,4 +245,28 @@ text-align: center;
 font-weight: 600;
 margin-top: 50px;
 transition: all 0.5s;
+}
+.lang{
+    display: inline-block;
+    background: rgba(10, 25, 45, 0.35);
+border-color:rgba(135, 206, 250, 0.35);
+box-shadow: inset 0 0 20px rgba(173, 216, 230, 0.25),
+            0 8px 32px rgba(0, 0, 0, 0.6);
+    width: 30%;
+    height: 400px;
+    border-radius: 20px;
+    text-align: center;
+    overflow: auto;
+    color: #ffffff;
+    justify-content: center;
+    margin-left: 25px;
+    
+}
+.clang{
+    margin-top: 50px;
+margin-left: 10px;
+margin-right: 10px;
+
+
+
 }
